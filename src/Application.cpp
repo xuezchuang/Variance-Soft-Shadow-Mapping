@@ -265,7 +265,9 @@ int main(void) {
 	std::vector<glm::vec3> SphereGroupVertices;
 	std::vector<glm::vec2> SphereGroupUVs;
 	std::vector<glm::vec3> SphereGroupNormals;
-	std::string SphereGroupModelPath = "F:\\M2\\IG3DA\\Project\\models\\SphereGroup.obj";
+	//std::string SphereGroupModelPath = "F:\\M2\\IG3DA\\Project\\models\\SphereGroup.obj";
+	std::string SphereGroupModelPath = "C:\\Graph\\Variance-Soft-Shadow-Mapping\\res\\models\\SphereGroup.obj";
+
 	bool sg_res = loadOBJData(SphereGroupModelPath.c_str(), SphereGroupVertices, SphereGroupUVs, SphereGroupNormals);
 	if (sg_res) {
 		std::cout << "Model: " << SphereGroupModelPath << " loaded!" << std::endl;

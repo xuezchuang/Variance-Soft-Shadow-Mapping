@@ -1,0 +1,9 @@
+[submodule "glm"]
+	path = glm
+	url = git@github.com:xuezchuang/glm.git
+[submodule "glfw"]
+	path = glfw
+	url = git@github.com:xuezchuang/glfw.git
+[submodule "glew"]
+	path = glew
+	url = git@github.com:xuezchuang/glew.git
